@@ -5,6 +5,8 @@
   - [x] Ko-fi
   - [x] Linkdin
 - [ ] Add a bio
+- [ ] Properly add OGP properties to the website.
+- [ ] Add a source code link.
 - [ ] Use OGP to get all the information i need to advertise my individual blogs.
 # Technologies
 - [Porkbun](https://porkbun.com/): Domain management
