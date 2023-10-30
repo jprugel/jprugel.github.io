@@ -11,11 +11,27 @@ body {
 }
 
 .left {
-    width: 50%;
+    width: 25%;
     float: left;
+    margin: 3px;
+    text-align: center;
 }
 
 .right {
-    width: 50%;
+    width: 75%;
     float: right;
+    margin: 3px;
+}
+.divider {
+    border-left: 2px solid #000; /* Customize border properties for the vertical divider */
+}
+.favicon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: auto;
+}
+.button-container {
+    align-items: center;
+    margin: 10px;
 }
