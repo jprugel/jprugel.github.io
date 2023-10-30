@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.split {
+    height: 100%;
+    overflow: hidden;
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    width: 50%;
+    float: right;
+}
