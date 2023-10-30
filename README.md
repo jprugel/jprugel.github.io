@@ -16,3 +16,4 @@
 # Goals
 - [ ] Markdown to html parser built in [Rust-Lang](https://www.rust-lang.org).
 - [ ] OGP Parser in [Rust-Lang](https://www.rust-lang.org).
+- [ ] PNG to ICO converter in [Rust-Lang](https://www.rust-lang.org).
