@@ -14,7 +14,6 @@
 
 - [Porkbun](https://porkbun.com/): Domain management
 - [Github Pages](https://pages.github.com): Website hosting
-- [Pico.css](https://picocss.com): Website Styling
 - [Webstorm IDE](https://www.jetbrains.com/webstorm/): Webstorm IDE
 
 # Goals
