@@ -13,6 +13,7 @@
     --primary: #333333;
     --secondary: #1E1E1E;
     --tertiary: #354A1A;
+    --quaternary: #444444;
     --text-color: #8F9779
 }
 
@@ -79,10 +80,12 @@ article {
 }
 
 article header {
+    background-color: var(--quaternary);
     padding: 10px;
     font-size: 2rem;
 }
 article p {
+    background-color: var(--quaternary);
     padding: 10px;
     font-size: 1.1rem;
 }
@@ -94,4 +97,7 @@ article footer {
 }
 .link {
     color: var(--tertiary);
+}
+nav {
+    background-color: var(--quaternary);
 }
