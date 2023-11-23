@@ -1,55 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <!--Styles-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
-    <link rel="stylesheet" href="style.css">
-    <!--Favicon-->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <title>JPrugel Devlog</title>
-</head>
-<body>
-<div class="content">
-    <div class="split left">
-        <!-- Content for the left side of the split -->
-        <h1>Jonathon Prugel</h1>
-        <img src="temp.png" alt="Photo of Jonathon Prugel">
-        <section id="buttons">
-            <div class="button-container">
-                <a href="https://www.github.com/jprugel" target="_blank">
-                    <Button><img src="https://www.github.com/favicon.ico" alt="Example" class="favicon">Github</Button>
-                </a>
-                <a href="https://ko-fi.com/jprugel" target="_blank">
-                    <button><img src="https://ko-fi.com/favicon.ico" alt="Example" class="favicon">Kofi</button>
-                </a>
-                <a href="https://www.linkedin.com/in/jonathon-prugel/" target="_blank">
-                    <button><img src="https://www.linkedin.com/favicon.ico" alt="Example" class="favicon">linkdin
-                    </button>
-                </a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <nav class="inline-flex">
+            <div class="left-items">
+                <img src="favicon.ico" alt="" class="icon">
+                <p class="title"><strong>Jonathon Prugel</strong></p>
             </div>
-        </section>
-    </div>
-    <div class="divider"></div>
-    <div class="split right">
-        <div class="flex_container">
-            <div class="flex_item">
-                <article id="article">
-                    <h2>Building Picon</h2>
-                    <p>
-                        I build a tool in rust for converting .png files from an input folder into a .ico file in an output folder for this website.
-                    </p>
-                    <footer><small><a href="blogs/blog_building_picon.html">Click here to read more..</a></small></footer>
-                </article>
+            <div class="right-items">
+                <a href="https://www.github.com/jprugel"><img src="https://www.github.com/favicon.ico" alt="" class="favicon"></a>
+                <a href="https://www.linkedin.com/jprugel"><img src="https://www.linkedin.com/favicon.ico" alt="" class="favicon"></a>
+                <a href="https://ko-fi.com/jprugel"><img src="https://ko-fi.com/favicon.ico" alt="" class="favicon"></a>
             </div>
-            <div class="flex_item"></div>
-        </div>
-    </div>
-</div>
-<footer>
-    <p>&copy; 2023 jprugel.dev All rights reserved.</p>
-    <a href="https://github.com/jprugel/jprugel.github.io" target="_blank">View Source Code</a>
-</footer>
-</body>
+        </nav>
+        <main class="container">
+            <article>
+                <header>Building a website!</header>
+                <p>How I built my blogging website jprugel.dev using only html and css!</p>
+                <footer><a href="blogs/building_a_website.html" class="link">Click here to read more...</a></footer>
+            </article>
+            <article>
+                <header>Creating my first game with rust-lang</header>
+                <p>I have been learning rust-lang and I've always had an interest in game development, so i figure the best first project I could make is a small rogue clone.</p>
+                <footer><a href="blogs/building_a_website.html" class="link">Follow along here if you are curious...</a></footer>
+            </article>
+        </main>
+    </body>
 </html>
