@@ -5,3 +5,8 @@
     font-size: 1.25rem;
     color: var(--text-color);
 }
+h3 {
+    color: var(--tertiary);
+    font-size: 2rem;
+    text-align: center;
+}
