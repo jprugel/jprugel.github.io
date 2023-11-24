@@ -7,7 +7,7 @@
     - [x] Linkdin
 - [ ] Add a bio
 - [ ] Properly add OGP properties to the website.
-- [ ] Add a source code link.
+- [x] Add a source code link.
 - [ ] Use OGP to get all the information i need to advertise my individual blogs.
 
 # Technologies
@@ -20,4 +20,5 @@
 
 - [ ] Markdown to html parser built in [Rust-Lang](https://www.rust-lang.org).
 - [ ] OGP Parser in [Rust-Lang](https://www.rust-lang.org).
-- [ ] PNG to ICO converter in [Rust-Lang](https://www.rust-lang.org).
+- [x] PNG to ICO converter in [Rust-Lang](https://www.rust-lang.org).
+- [ ] Build a rogue clone in rust-lang.

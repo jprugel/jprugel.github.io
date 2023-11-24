@@ -1,0 +1,7 @@
+.document {
+    margin: auto;
+    width: 80%;
+
+    font-size: 1.25rem;
+    color: var(--text-color);
+}
