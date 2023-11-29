@@ -95,12 +95,19 @@ article footer {
     font-size: 1.3rem;
     padding: 10px;
 }
+
 .link {
     color: var(--tertiary);
 }
+
+.link:active {
+    color: var(--tertiary);
+}
+
 nav {
     background-color: var(--quaternary);
 }
+
 .notlink {
     text-decoration: none;
     display: inline-flex;

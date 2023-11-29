@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/blog.css">
     <link rel="stylesheet" href="../styles/code.css">
+    <link rel="stylesheet" href="../styles/file.css">
     <!--Favicon-->
     <link rel="icon" href="../favicon.ico" type="image/x-icon">
     <title>Building a website</title>
@@ -19,9 +20,15 @@
         </a>
     </div>
     <div class="right-items">
-        <a href="https://www.github.com/jprugel"><img src="https://www.github.com/favicon.ico" alt="" class="favicon"></a>
-        <a href="https://www.linkedin.com/jprugel"><img src="https://www.linkedin.com/favicon.ico" alt="" class="favicon"></a>
-        <a href="https://ko-fi.com/jprugel"><img src="https://ko-fi.com/favicon.ico" alt="" class="favicon"></a>
+        <a href="https://www.github.com/jprugel">
+            <img src="https://www.github.com/favicon.ico" alt="" class="favicon">
+        </a>
+        <a href="https://www.linkedin.com/jprugel">
+            <img src="https://www.linkedin.com/favicon.ico" alt="" class="favicon">
+        </a>
+        <a href="https://ko-fi.com/jprugel">
+            <img src="https://ko-fi.com/favicon.ico" alt="" class="favicon">
+        </a>
     </div>
 </nav>
 <main>
@@ -29,38 +36,39 @@
         <h3>The technologies</h3>
 
         &emsp;For a while I've been trying to introduce myself to webdev, the main issue has always been cost. Webdev isn't a
-        particularly affordable endeavor, you have the costs of the domain, the host, and any other services you may want
-        including but not limited to Wordpress, Canva, and or Squarespace. I was wrong. The website I'm going to walk you
-        through building here costs less than $1.00/mo.<br><br>
+        particularly affordable endeavor, you have the costs of the domain, the host, and any other services you may
+        want including but not limited to <a href="https://wordpress.com" class="link">Wordpress</a>,
+        <a href="https://www.canva.com" class="link">Canva</a>, and or
+        <a href="https://www.squarespace.com" class="link">Squarespace</a>. I was wrong. The website I'm going to walk
+        you through building here costs less than $1.00/mo.<br><br>
 
-        &emsp;We will start with our domains, there are a variety of domain managers, but I highly recommend porkbun.com. Porkbun
-        is great because its affordable as of 2023, and doesn't get sold to squarespace cough cough google cough cough. It
-        has a clean UI and is very easy to use, it looks like it makes security a primary concern and provides you with
-        tools to help you build your website, regardless of if it is static or dynamic. Now that I've talked the service up
-        let me give you the juice, my domain is only $10.00/yr. and that is going to be the entire cost of the website!<br><br>
+        &emsp;We will start with our domains, there are a variety of domain managers, but I highly recommend
+        <a href="https://porkbun.com" class="link">Porkbun</a>. Porkbun is great because its affordable as of 2023, and
+        doesn't get sold to squarespace cough cough google cough cough. It has a clean UI and is very easy to use, it
+        looks like it makes security a primary concern and provides you with tools to help you build your website,
+        regardless of if it is static or dynamic. Now that I've talked the service up let me give you the juice, my
+        domain is only $10.00/yr. and that is going to be the entire cost of the website!<br><br>
 
         &emsp;The next question is going to be who will host the website, and for a personal blog I believe there is no
-        better option than Github pages. Its free, it has automatic deployment and if you are used to using github then
-        it is very easy to begin using!<br><br>
+        better option than <a href="https://pages.github.com" class="link">Github Pages</a>. Its free, it has automatic
+        deployment and if you are used to using github then it is very easy to begin using!<br><br>
 
-        <h3>The HTML</h3>
+        <h3>Starting the project</h3>
 
-        &emsp;Depending on what IDE or text editor you use, you should have access to what is called snippets, in
-        Webstorm you have bang tab. bang tab produces this snippet:<br><br>
-        <pre><code>
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-    &lt;head&gt;
-        &lt;meta charset="UTF-8"&gt;
-        &lt;meta name="viewport"
-             content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"&gt;
-             &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
-             &lt;title&gt;Document&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-        </code></pre>
+        &emsp;If you've never created a static website before you have to start with an index.html file in your project.
+        something along the line of:<br><br>
+
+        <div class="file">
+            <ul class="one">project</ul>
+            <ul class="two">index.html</ul>
+            <ul class="two last">styles.css</ul>
+        </div><br>
+
+        &emsp;Once you've created this project with the above file structure I'd recommend adding a template to your
+        html file with either a snippet shortcut or using something like
+        <a href="https://gist.github.com/chrisvfritz/bc010e6ed25b802da7eb" class="link">HTML Template</a>. With that you
+        can push your initial commit to your Github and follow the guide on github pages to complete your website! Its
+        really as simple as that!
     </div>
 </main>
 </body>

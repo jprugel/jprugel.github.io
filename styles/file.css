@@ -1,0 +1,13 @@
+.file .two::before {
+    content: "├";
+}
+
+.file .last::before {
+    content: "└";
+}
+
+.file {
+    background-color: var(--secondary);
+    padding: 10px;
+    border-radius: 10px;
+}
